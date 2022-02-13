@@ -137,6 +137,11 @@ namespace UniRx
         {
 
         }
+
+        public object Subscribe(object onPlacementValid)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     /// <summary>Inspectable ReactiveProperty.</summary>

@@ -6,7 +6,10 @@
         "UnityEditor.TestRunner",
         "Scripts",
         "Unity.TextMeshPro",
-        "UniRx"
+        "UniRx",
+        "ConsoleScripts",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems"
     ],
     "includePlatforms": [
         "Editor"

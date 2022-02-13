@@ -1,0 +1,67 @@
+{
+    "name": "ARControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1d48fff2-ed7c-4577-a50a-e0fad731462e",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "a25d265d-13a6-4baa-8896-a34054b30527",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "200817f4-3eb2-4e80-a419-a9cb5d29ac17",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Windows",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef8150e4-ed7d-48c4-bb79-aa4231c2ef79",
+                    "path": "<Touchscreen>/touch0/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Smartphone",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Windows",
+            "bindingGroup": "Windows",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Smartphone",
+            "bindingGroup": "Smartphone",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

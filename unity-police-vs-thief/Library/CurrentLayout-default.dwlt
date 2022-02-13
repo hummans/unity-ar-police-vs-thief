@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1536
     height: 790.4
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -41,13 +41,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 322
+    width: 291.2
     height: 740
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
@@ -72,7 +72,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 790
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -143,10 +143,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 740
-  m_MinSize: {x: 781, y: 492}
+  m_MinSize: {x: 779, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 217
+  controlID: 317
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,14 +164,14 @@ MonoBehaviour:
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
-    x: 322
+    x: 291.2
     y: 0
-    width: 811
+    width: 632
     height: 740
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 218
+  controlID: 18
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -191,12 +191,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 811
-    height: 406
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+    width: 632
+    height: 468
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 219
+  controlID: 19
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -214,13 +214,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 401
-    height: 406
+    width: 267.2
+    height: 468
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &10
@@ -238,16 +238,16 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 401
+    x: 267.2
     y: 0
-    width: 410
-    height: 406
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+    width: 364.8
+    height: 468
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
@@ -266,16 +266,16 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 406
-    width: 811
-    height: 334
+    y: 468
+    width: 632
+    height: 272
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 18}
   - {fileID: 19}
+  - {fileID: 20}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
@@ -293,19 +293,98 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1133
+    x: 923.2
     y: 0
-    width: 403
+    width: 612.8
     height: 740
   m_MinSize: {x: 276, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 20}
-  - {fileID: 21}
+  - {fileID: 13}
+  - {fileID: 14}
+  - {fileID: 22}
+  - {fileID: 23}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 923.2
+    y: 104
+    width: 611.8
+    height: 719
+  m_ViewDataDictionary: {fileID: 0}
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 206
+    m_ControlHash: 1412526313
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 923.2
+    y: 104
+    width: 611.8
+    height: 719
+  m_ViewDataDictionary: {fileID: 0}
+  m_ObjectsLockedBeforeSerialization:
+  - {fileID: 11400000, guid: cb2f44d15628b1e44801c599d300f2a9, type: 2}
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 206
+    m_ControlHash: 1412526313
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: 26080
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 1
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -327,7 +406,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 104
-    width: 321
+    width: 290.2
     height: 719
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -372,10 +451,10 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 321
+      width: 290.2
       height: 698
-    m_Scale: {x: 0.5572917, y: 0.5572917}
-    m_Translation: {x: 160.5, y: 349}
+    m_Scale: {x: 0.50381947, y: 0.50381947}
+    m_Translation: {x: 145.1, y: 349}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -383,18 +462,18 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -288
-      y: -626.243
+      y: -692.70844
       width: 576
-      height: 1252.486
+      height: 1385.4169
     m_MinimalGUI: 1
-  m_defaultScale: 0.5572917
-  m_LastWindowPixelSize: {x: 401.25, y: 898.75}
+  m_defaultScale: 0.50381947
+  m_LastWindowPixelSize: {x: 362.75, y: 898.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &14
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -414,17 +493,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 322.4
+    x: 291.2
     y: 104
-    width: 399
-    height: 385
+    width: 265.2
+    height: 447
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 50fbffff
+      m_ExpandedIDs: c082ffff4883ffffdc85ffff3e88ffffc688ffff5a8bfffffa8effff828fffff1692ffffa294ffff2a95ffffbe97ffffb6a7ffff3ea8ffff4ca8ffff0aaaffff92aaffffa0aaffffbcacffff44adffffdaafffff4ab5ffffd2b5ffff62b8ffff6ebcffff0ebdffff3ebdffff78beffff00bfffff12bfffff12c1ffff9ac1ffff2cc4ffff00c7ffff88c7ffff1acaffff1ed4ffffa6d4ffff36d7ffff1cdcffffa4dcffff34dfffffaae2ffff46e3ffff76e3ffff46e9ffffc8e9ffffe8e9ffff42ebffffe6ebffff16ecffffbef2ffff5af3ffff86f3ffff60f8ffff26f9ffff54f9ffff50fbffffe29c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -440,7 +519,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 9}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -448,7 +527,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &15
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -468,10 +547,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 723.2
+    x: 558.4
     y: 104
-    width: 408
-    height: 385
+    width: 362.8
+    height: 447
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -484,9 +563,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.0906193, y: 59.984547, z: 35.02616}
+    m_Target: {x: 0, y: 0.00022597238, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0.5}
+    m_Value: {x: 0, y: 0.00022597238, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -533,20 +612,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: 0.2717277, y: -0.41166523, z: 0.13005488, w: 0.86010647}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0.27172747, y: -0.41166487, z: 0.13005477, w: 0.86010575}
   m_Size:
-    m_Target: 4.3388314
+    m_Target: 0.15835428
     speed: 2
-    m_Value: 1.2247449
+    m_Value: 0.15835428
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 0.060969997
+    m_SpeedNormalized: 0.03
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -564,7 +643,7 @@ MonoBehaviour:
   m_SceneVisActive: 0
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -625,7 +704,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &17
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -645,10 +724,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 322.4
-    y: 509.6
-    width: 809
-    height: 313
+    x: 291.2
+    y: 572
+    width: 630
+    height: 251
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -663,22 +742,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Editor/Tests/PlayMode
+    - Assets/Resources/Starter Package
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Editor/Tests/PlayMode
+  - Assets/Resources/Starter Package
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\matia\Desktop\Matias A. Vallejos\Github\Github.Personal\unity-ar-police-thief
+  m_LastProjectPath: C:\Users\matia\Desktop\Matias A. Vallejos\Github\Github.Personal\unity-ar-police-vs-thief\unity-police-vs-thief
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 665d0000
-    m_LastClickedID: 23910
-    m_ExpandedIDs: 00000000185b00001c5b00001e5b0000205b0000225b0000645d000000ca9a3b
+    scrollPos: {x: 0, y: 120}
+    m_SelectedIDs: f0690000
+    m_LastClickedID: 27120
+    m_ExpandedIDs: 00000000de690000e0690000e2690000e4690000e6690000e8690000ea690000ec690000ee690000f0690000f26900009e6b0000a06b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -706,7 +785,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000185b00001a5b00001c5b00001e5b0000205b0000225b0000
+    m_ExpandedIDs: 00000000de690000e0690000e2690000e4690000e6690000e8690000ea690000ec690000ee690000f0690000f2690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -733,7 +812,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000000000030500000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -758,11 +837,11 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 100}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 228
---- !u!114 &18
+  m_DirectoriesAreaWidth: 229
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -782,12 +861,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 322.4
-    y: 509.6
-    width: 809
-    height: 313
+    x: 292
+    y: 572
+    width: 629
+    height: 251
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &19
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -814,8 +893,8 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -211818
---- !u!114 &20
+  m_LastSelectedObjectID: 40218
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -835,25 +914,26 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1132.8
+    x: 923.2
     y: 104
-    width: 402
+    width: 611.8
     height: 719
   m_ViewDataDictionary: {fileID: 0}
-  m_ObjectsLockedBeforeSerialization: []
+  m_ObjectsLockedBeforeSerialization:
+  - {fileID: 11400000, guid: 0e9b903d9b5930b45af09e08f05795ff, type: 2}
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
     m_CachedPref: 288
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 26092
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
-    m_IsLocked: 0
+    m_IsLocked: 1
   m_PreviewWindow: {fileID: 0}
---- !u!114 &21
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -873,13 +953,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1132.8
+    x: 923.2
     y: 104
-    width: 402
+    width: 611.8
     height: 719
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 1810
+    ID: 161
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -902,9 +982,9 @@ MonoBehaviour:
     oldMinSizes: 
     oldMaxSizes: 
     oldSplitSize: 0
-  m_TestTypeToolbarIndex: 0
+  m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 21}
+    m_Window: {fileID: 23}
     m_NewResultList:
     - id: 1000
       uniqueId: '[Police Thief Game][suite]'
@@ -956,14 +1036,14 @@ MonoBehaviour:
       - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 21}
+    m_Window: {fileID: 23}
     m_NewResultList:
-    - id: 1000
-      uniqueId: '[unity-ar-police-thief][suite]'
-      name: unity-ar-police-thief
-      fullName: unity-ar-police-thief
-      resultStatus: 0
-      duration: 0
+    - id: 1002
+      uniqueId: '[Police Thief Game][suite]'
+      name: Police Thief Game
+      fullName: Police Thief Game
+      resultStatus: 1
+      duration: 1.1727622
       messages: 
       output: 
       stacktrace: 
@@ -974,18 +1054,360 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    m_ResultText: "contain_tracked_image_input (0.003s)\n---\nExpected: not null\r\n 
-      But was:  null\n---\nat Editor.Tests.Scenes.MainSceneShould.contain_tracked_image_input
-      () [0x0000b] in C:\\Users\\matia\\Desktop\\Matias A. Vallejos\\Github\\Github.Personal\\unity-tensorflow-image-classifier\\unity-ar-classifier\\Assets\\Editor\\Tests\\EditMode\\Scenes\\MainSceneShould.cs:61"
-    m_ResultStacktrace: 'at Editor.Tests.Scenes.MainSceneShould.contain_tracked_image_input
-      () [0x0000b] in C:\Users\matia\Desktop\Matias A. Vallejos\Github\Github.Personal\unity-tensorflow-image-classifier\unity-ar-classifier\Assets\Editor\Tests\EditMode\Scenes\MainSceneShould.cs:61
-
-'
+    - id: 1017
+      uniqueId: '[EditMode.dll][suite]'
+      name: EditMode.dll
+      fullName: C:/Users/matia/Desktop/Matias A. Vallejos/Github/Github.Personal/unity-ar-police-vs-thief/unity-police-vs-thief/Library/ScriptAssemblies/EditMode.dll
+      resultStatus: 1
+      duration: 1.125586
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Police Thief Game][suite]'
+    - id: 1014
+      uniqueId: EditMode.dll/[Editor][suite]
+      name: Editor
+      fullName: Editor
+      resultStatus: 1
+      duration: 1.1250443
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1013
+      parentUniqueId: '[EditMode.dll][suite]'
+    - id: 1015
+      uniqueId: EditMode.dll/Editor/[Tests][suite]
+      name: Tests
+      fullName: Editor.Tests
+      resultStatus: 1
+      duration: 1.1248492
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: EditMode.dll/[Editor][suite]
+    - id: 1012
+      uniqueId: EditMode.dll/Editor/Tests/[EditMode][Editor.Tests.Components][suite]
+      name: Components
+      fullName: Editor.Tests.Components
+      resultStatus: 1
+      duration: 0.0495295
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: EditMode.dll/Editor/[Tests][suite]
+    - id: 1009
+      uniqueId: EditMode.dll/Editor/Tests/Components/[EditMode][Editor.Tests.Components.ARPlacementTrackPoseShould][suite]
+      name: ARPlacementTrackPoseShould
+      fullName: Editor.Tests.Components.ARPlacementTrackPoseShould
+      resultStatus: 1
+      duration: 0.0194694
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1021
+      parentUniqueId: EditMode.dll/Editor/Tests/[EditMode][Editor.Tests.Components][suite]
+    - id: 1010
+      uniqueId: EditMode.dll/Editor/Tests/Components/ARPlacementTrackPoseShould/[EditMode][Editor.Tests.Components.ARPlacementTrackPoseShould.ARPlacementTrackPoseShouldSimplePasses]
+      name: ARPlacementTrackPoseShouldSimplePasses
+      fullName: Editor.Tests.Components.ARPlacementTrackPoseShould.ARPlacementTrackPoseShouldSimplePasses
+      resultStatus: 1
+      duration: 0.0059271
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: EditMode.dll/Editor/Tests/Components/[EditMode][Editor.Tests.Components.ARPlacementTrackPoseShould][suite]
+    - id: 1006
+      uniqueId: EditMode.dll/Editor/Tests/Components/[EditMode][Editor.Tests.Components.PlacementIndicatorDisplayShould][suite]
+      name: PlacementIndicatorDisplayShould
+      fullName: Editor.Tests.Components.PlacementIndicatorDisplayShould
+      resultStatus: 1
+      duration: 0.0075256
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: EditMode.dll/Editor/Tests/[EditMode][Editor.Tests.Components][suite]
+    - id: 1007
+      uniqueId: EditMode.dll/Editor/Tests/Components/PlacementIndicatorDisplayShould/[EditMode][Editor.Tests.Components.PlacementIndicatorDisplayShould.PlacementIndicatorDisplayShouldSimplePasses]
+      name: PlacementIndicatorDisplayShouldSimplePasses
+      fullName: Editor.Tests.Components.PlacementIndicatorDisplayShould.PlacementIndicatorDisplayShouldSimplePasses
+      resultStatus: 1
+      duration: 0.0001518
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: EditMode.dll/Editor/Tests/Components/[EditMode][Editor.Tests.Components.PlacementIndicatorDisplayShould][suite]
+    - id: 1013
+      uniqueId: EditMode.dll/Editor/Tests/Components/[EditMode][Editor.Tests.Components.PlayerDisplayShould][suite]
+      name: PlayerDisplayShould
+      fullName: Editor.Tests.Components.PlayerDisplayShould
+      resultStatus: 1
+      duration: 0.0090238
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1021
+      parentUniqueId: EditMode.dll/Editor/Tests/[EditMode][Editor.Tests.Components][suite]
+    - id: 1014
+      uniqueId: EditMode.dll/Editor/Tests/Components/PlayerDisplayShould/[EditMode][Editor.Tests.Components.PlayerDisplayShould.PlayerDisplayShouldSimplePasses]
+      name: PlayerDisplayShouldSimplePasses
+      fullName: Editor.Tests.Components.PlayerDisplayShould.PlayerDisplayShouldSimplePasses
+      resultStatus: 1
+      duration: 0.0005834
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: EditMode.dll/Editor/Tests/Components/[EditMode][Editor.Tests.Components.PlayerDisplayShould][suite]
+    - id: 1011
+      uniqueId: EditMode.dll/Editor/Tests/Components/[EditMode][Editor.Tests.Components.PlayerSpawnerInputShould][suite]
+      name: PlayerSpawnerInputShould
+      fullName: Editor.Tests.Components.PlayerSpawnerInputShould
+      resultStatus: 1
+      duration: 0.0072533
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1017
+      parentUniqueId: EditMode.dll/Editor/Tests/[EditMode][Editor.Tests.Components][suite]
+    - id: 1012
+      uniqueId: EditMode.dll/Editor/Tests/Components/PlayerSpawnerInputShould/[EditMode][Editor.Tests.Components.PlayerSpawnerInputShould.PlayerSpawnerInputShouldSimplePasses]
+      name: PlayerSpawnerInputShouldSimplePasses
+      fullName: Editor.Tests.Components.PlayerSpawnerInputShould.PlayerSpawnerInputShouldSimplePasses
+      resultStatus: 1
+      duration: 0.0001301
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: EditMode.dll/Editor/Tests/Components/[EditMode][Editor.Tests.Components.PlayerSpawnerInputShould][suite]
+    - id: 1009
+      uniqueId: EditMode.dll/Editor/Tests/[EditMode][Editor.Tests.Scenes][suite]
+      name: Scenes
+      fullName: Editor.Tests.Scenes
+      resultStatus: 1
+      duration: 1.0722184
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: EditMode.dll/Editor/[Tests][suite]
+    - id: 1003
+      uniqueId: EditMode.dll/Editor/Tests/Scenes/[EditMode][Editor.Tests.Scenes.MainSceneShould][suite]
+      name: MainSceneShould
+      fullName: Editor.Tests.Scenes.MainSceneShould
+      resultStatus: 1
+      duration: 1.065093
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: EditMode.dll/Editor/Tests/[EditMode][Editor.Tests.Scenes][suite]
+    - id: 1009
+      uniqueId: EditMode.dll/Editor/Tests/Scenes/MainSceneShould/[EditMode][Editor.Tests.Scenes.MainSceneShould.ar_input_manager]
+      name: ar_input_manager
+      fullName: Editor.Tests.Scenes.MainSceneShould.ar_input_manager
+      resultStatus: 1
+      duration: 0.0083474
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: EditMode.dll/Editor/Tests/Scenes/[EditMode][Editor.Tests.Scenes.MainSceneShould][suite]
+    - id: 1005
+      uniqueId: EditMode.dll/Editor/Tests/Scenes/MainSceneShould/[EditMode][Editor.Tests.Scenes.MainSceneShould.ar_placement_pose_controller]
+      name: ar_placement_pose_controller
+      fullName: Editor.Tests.Scenes.MainSceneShould.ar_placement_pose_controller
+      resultStatus: 1
+      duration: 0.0003207
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: EditMode.dll/Editor/Tests/Scenes/[EditMode][Editor.Tests.Scenes.MainSceneShould][suite]
+    - id: 1004
+      uniqueId: EditMode.dll/Editor/Tests/Scenes/MainSceneShould/[EditMode][Editor.Tests.Scenes.MainSceneShould.ar_placement_track_pose_should]
+      name: ar_placement_track_pose_should
+      fullName: Editor.Tests.Scenes.MainSceneShould.ar_placement_track_pose_should
+      resultStatus: 1
+      duration: 0.0002783
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: EditMode.dll/Editor/Tests/Scenes/[EditMode][Editor.Tests.Scenes.MainSceneShould][suite]
+    - id: 1010
+      uniqueId: EditMode.dll/Editor/Tests/Scenes/MainSceneShould/[EditMode][Editor.Tests.Scenes.MainSceneShould.game_manager]
+      name: game_manager
+      fullName: Editor.Tests.Scenes.MainSceneShould.game_manager
+      resultStatus: 1
+      duration: 0.0002034
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: EditMode.dll/Editor/Tests/Scenes/[EditMode][Editor.Tests.Scenes.MainSceneShould][suite]
+    - id: 1006
+      uniqueId: EditMode.dll/Editor/Tests/Scenes/MainSceneShould/[EditMode][Editor.Tests.Scenes.MainSceneShould.placement_indicator_display]
+      name: placement_indicator_display
+      fullName: Editor.Tests.Scenes.MainSceneShould.placement_indicator_display
+      resultStatus: 1
+      duration: 0.0033763
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: EditMode.dll/Editor/Tests/Scenes/[EditMode][Editor.Tests.Scenes.MainSceneShould][suite]
+    - id: 1007
+      uniqueId: EditMode.dll/Editor/Tests/Scenes/MainSceneShould/[EditMode][Editor.Tests.Scenes.MainSceneShould.placement_indicator_pose_display]
+      name: placement_indicator_pose_display
+      fullName: Editor.Tests.Scenes.MainSceneShould.placement_indicator_pose_display
+      resultStatus: 1
+      duration: 0.0002424
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: EditMode.dll/Editor/Tests/Scenes/[EditMode][Editor.Tests.Scenes.MainSceneShould][suite]
+    - id: 1008
+      uniqueId: EditMode.dll/Editor/Tests/Scenes/MainSceneShould/[EditMode][Editor.Tests.Scenes.MainSceneShould.player_spawner_input]
+      name: player_spawner_input
+      fullName: Editor.Tests.Scenes.MainSceneShould.player_spawner_input
+      resultStatus: 1
+      duration: 0.0003023
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: EditMode.dll/Editor/Tests/Scenes/[EditMode][Editor.Tests.Scenes.MainSceneShould][suite]
+    m_ResultText: ar_input_manager (0.008s)
+    m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 19671b8b
-      m_LastClickedID: -1961138407
-      m_ExpandedIDs: bfe49aa4c5fb713619267236dc899539d421133b0f274e584b5ea47cffffff7f
+      m_SelectedIDs: 77d28520
+      m_LastClickedID: 545641079
+      m_ExpandedIDs: bfe49aa49935bd059aa9be25b2643430c5fb713619267236dc899539d421133bd80f7444b52b13510f274e58473d43634b5ea47cffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
